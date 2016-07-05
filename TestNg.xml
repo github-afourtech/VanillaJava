@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Vanilla Test">
+	<test name="Test Case 1">
+		<classes>
+			<class name="com.afour.automation.scripts.TC_1" />
+		</classes>
+	</test>
+	<!-- <test name="Test Case 2">
+
+		<classes>
+			<class name="com.vanilla.automation.scripts.TC_2" />
+		</classes>
+	</test>
+
+	<test name="Test Case 3">
+
+		<classes>
+			<class
+				name="com.vanilla.automation.scripts.TC_3" />
+		</classes>
+	</test> -->
+	<listeners>
+		<listener class-name="atu.testng.reports.listeners.ATUReportsListener" />
+		<listener class-name="atu.testng.reports.listeners.ConfigurationListener" />
+		<listener class-name="atu.testng.reports.listeners.MethodListener" />
+	</listeners>
+</suite>

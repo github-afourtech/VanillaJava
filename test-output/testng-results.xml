@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5862" started-at="2016-04-28T07:20:08Z" finished-at="2016-04-28T07:20:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5862" started-at="2016-04-28T07:20:08Z" finished-at="2016-04-28T07:20:14Z">
+      <class name="com.afour.automation.scripts.TC_1">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.afour.automation.scripts.TC_1@14bf9759]" name="init" is-config="true" duration-ms="6" started-at="2016-04-28T12:50:08Z" finished-at="2016-04-28T12:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="tests()[pri:0, instance:com.afour.automation.scripts.TC_1@14bf9759]" name="tests" is-config="true" duration-ms="5743" started-at="2016-04-28T12:50:08Z" finished-at="2016-04-28T12:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tests -->
+        <test-method status="PASS" signature="setTestCaseName(java.lang.reflect.Method)[pri:0, instance:com.afour.automation.scripts.TC_1@14bf9759]" name="setTestCaseName" is-config="true" duration-ms="1" started-at="2016-04-28T12:50:14Z" finished-at="2016-04-28T12:50:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.afour.automation.scripts.TC_1.verifyLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestCaseName -->
+        <test-method status="PASS" signature="verifyLink()[pri:0, instance:com.afour.automation.scripts.TC_1@14bf9759]" name="verifyLink" duration-ms="99" started-at="2016-04-28T12:50:14Z" finished-at="2016-04-28T12:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLink -->
+        <test-method status="FAIL" signature="cleanUp()[pri:0, instance:com.afour.automation.scripts.TC_1@14bf9759]" name="cleanUp" is-config="true" duration-ms="0" started-at="2016-04-28T12:50:14Z" finished-at="2016-04-28T12:50:14Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.relevantcodes.extentreports.ExtentReports.endTest(ExtentReports.java:424)
+	at com.afour.automation.utilities.ReportExtent.cleanUp(ReportExtent.java:71)
+	at com.afour.automation.scripts.Base.cleanUp(Base.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="SKIP" signature="close()[pri:0, instance:com.afour.automation.scripts.TC_1@14bf9759]" name="close" is-config="true" duration-ms="0" started-at="2016-04-28T12:50:14Z" finished-at="2016-04-28T12:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.afour.automation.scripts.TC_1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
