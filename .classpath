@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="lib/ATUReporter_Selenium_testNG_5.1.jar"/>
+	<classpathentry kind="lib" path="lib/ATUReporter_testNG_2.1.jar"/>
+	<classpathentry kind="lib" path="lib/ATUTestRecorder_2.1.jar"/>
+	<classpathentry kind="lib" path="lib/DataLoader.jar"/>
+	<classpathentry kind="lib" path="lib/extentreports-java-2.40.0.jar"/>
+	<classpathentry kind="lib" path="lib/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="lib/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/opencsv-3.5.jar"/>
+	<classpathentry kind="lib" path="lib/selenium-server-standalone-2.47.1.jar"/>
+	<classpathentry kind="lib" path="lib/testng-6.7.jar"/>
+	<classpathentry kind="lib" path="D:/Jar Files/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="D:/Jar Files/jsoup-0.2.2-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
